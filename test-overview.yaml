@@ -1,0 +1,6 @@
+scenarios:
+  - flow:
+      - get:
+          url: "/profiles/overview"
+          headers: 
+            x-argokey: "loadtest"

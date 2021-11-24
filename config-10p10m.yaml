@@ -1,0 +1,7 @@
+config:
+  target: http://argovis-api-atoc-argovis-dev.apps.containers01.colorado.edu
+  http:
+    timeout: 1200
+  phases:
+    - duration: 600
+      arrivalRate: 10

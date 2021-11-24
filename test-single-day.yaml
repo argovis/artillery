@@ -1,0 +1,6 @@
+scenarios:
+  - flow:
+      - get:
+          url: "/profiles?ids=6904116_162&coreMeasurements=all&bgcMeasurements=all"
+          headers: 
+            x-argokey: "loadtest"
