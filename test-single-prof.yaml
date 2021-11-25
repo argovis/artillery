@@ -1,6 +1,6 @@
 scenarios:
   - flow:
       - get:
-          url: "/profiles?startDate=2021-11-19T00:00:00Z&endDate=2021-11-20T00:00:00Z&coreMeasurements=all&bgcMeasurements=all"
+          url: "/profiles?ids=6904116_162&coreMeasurements=all&bgcMeasurements=all"
           headers: 
             x-argokey: "loadtest"
